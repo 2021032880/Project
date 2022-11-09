@@ -291,7 +291,6 @@
 	font-weight: 100;
 }
 
-
 /* 5.=============电子书============= */
 .ebooks{
 	height:496px;
@@ -341,19 +340,23 @@
 	width: 236px;
 	background-color: #f9f9f9;
 }
+
 .ebooks .left-box .content .ad .top-img{
 	width: 236px;
 	height: 290px;
 }
+
 .ebooks .left-box .content .ad .bottom-text{
 	height: 160px;
 	width: 236px;
 }
+
 .ebooks .left-box .content .ad .bottom-text ul{
 	width: 235px;
 	height: 160px;
 	margin-left: 1px;
 }
+
 .ebooks .left-box .content .ad .bottom-text ul li{
 	float: left;
 	width: 78px;
@@ -367,6 +370,7 @@
 	width: 670px;
 	background-color: #ccc;
 }
+
 .ebooks .left-box .content .ebooks-list > ul > li{
 	float: left;
 	height: 223px;
@@ -376,36 +380,41 @@
 	margin-bottom: 2px;
 	text-align: center;
 }
+
 .ebooks .left-box .content .ebooks-list > ul > li > p{
 	text-align-last: left;
 	text-indent: 10px;
 }
+
 .ebooks .left-box .content .ebooks-list > ul >  li > p:first-child{
 	font-size: 18px;
 }
+
 .ebooks .left-box .content .ebooks-list > ul > li > img{
 	margin: 15px auto;
 }
+
 .ebooks .left-box .content .ebooks-list > ul >  li > p:not(:first-child){
 	color: red;
 }
+
 .ebooks .left-box .content .ebooks-list > ul > li > p:last-child{
 	font-size: 18px;
 }
-.ebooks .left-box .content .ebooks-list > ul > li:not(:first-child){
+/* .ebooks .left-box .content .ebooks-list > ul > li:not(:first-child){
 
-}
+} */
 /* 一个特别的li 将来的轮播容器 */
 .ebooks .left-box .content .ebooks-list ul li:first-child{
 	width: 332px;
 	height: 223px;
 }
+
 .ebooks .left-box .content .ebooks-list ul li:first-child .pptbox{
 	width: 332px;
 	height: 223px;
 	background-color: pink;
 }
-
 /* 右侧盒子 */
 .ebooks .right-box{
 	width: 286px;
@@ -415,6 +424,7 @@
 	/* 变为怪异盒子 */
 	box-sizing: border-box;
 }
+
 .ebooks .right-box .title{
 	text-align: center;
 	height: 50px;
@@ -423,27 +433,31 @@
 	font-weight: 200;
 	color: #333;
 }
+
 .ebooks .right-box ul li{
 	line-height: 42px;
 	font-size: 16px;
 	text-indent: 5px;
 }
+
+.ebooks .right-box ul li .desc img{
+	margin-right: 9px;
+}
+/* 新书列表交互相关样式 */
 .ebooks .right-box ul li .desc{
 	font-size: 14px;
 	line-height: 20px;
 	height: 150px;
 	color: #333;
-
-	/* 隐藏 */
+	/* 隐藏：详情默认所以都是隐藏的 只要第一个显示 */
 	display: none;
 }
-.ebooks .right-box ul li .desc img{
-	margin-right: 9px;
-}
-.ebooks .right-box ul li:first-child p:first-child{
+/* 默认所有标题都显示  只要第一个隐藏 */
+.ebooks .right-box ul li:first-child .ebooks-title{
 	display: none;
 }
-.ebooks .right-box ul li .desc.active{
+/* 默认第一个显示详情 */
+.ebooks .right-box ul li:first-child .desc{
 	display: block;
 }
 
