@@ -218,6 +218,7 @@
 	height: 428px;
 	display: none;
 	z-index: 88;
+	background-color: #fff;
 }
 /*轮播容器*/
 .menu .banner{
@@ -524,7 +525,7 @@ width: 960px;
 }
 .clothes .content  .list .list-top > ul > li{
   float:left;
-  height: 500px;
+  height: 335px;
   width: 170px;
   background-color: #fff;
   margin-left: 2px;
@@ -566,7 +567,7 @@ width: 960px;
 }
 .clothes .content .list .list-button ul li:first-child{
   height: 168px;
-  width: 478px;
+  width: 430px;
 }
 /* 底部 */
 .clothes .button{
@@ -579,34 +580,316 @@ background-color: #fff;
   height: 60px;
   width: 133px;
 }
-
-
-
-
-
 /* 7.=============户外运动============= */
 .sport{
-	height:500px;
-	background-color: #333;
-	
-}
-
+	margin-top: 30px;
+	height:570px;
+  }  
+  /* 顶部 */
+  .sport .top{
+	width: 1200px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff;
+	border-bottom: 6px solid #ff6700;
+  }
+  /* 标题 */
+  .sport .top .title{
+	text-indent: 24px;
+	font-size: 24px;
+	font-weight: 300px;
+	color: #ff6700;
+	background-color: #fff;
+	border-bottom: 6px solid #ff6700;
+  }
+  /* 右侧标题导航 */
+  .sport .top ul li{
+	width: 100px;
+	text-align: center;
+	float: left;
+	font-size: 18px;
+  }
+  /* 右侧激活类 */
+  .sport .top ul li.active{
+	background-color: #ff6700;
+	color: #fff;
+  }
+  /* 下半部分内容 */
+  .sport .content{
+	height: 450px;
+	width: 1200px;
+  }
+  /* 左侧广告 */
+  .sport .content .ads{
+	height: 450px;
+	width: 240px;
+	background-color: #f9f9f9;
+  }
+  .sport .content .ads .top-img{
+	width: 240px;
+	height: 290px;
+  }
+  .sport .content .ads .bottom-text{
+	height: 160px;
+	width: 240px;
+  }
+  .sport .content .ads .bottom-text ul{
+	width: 240px;
+	height: 160px;
+	margin-left: 1px;
+  }
+  .sport .content .ads .bottom-text ul li{
+	float: left;
+	width: 78px;
+	line-height: 40px;
+	height: 40px;
+	text-indent: 5px;
+  }
+  /* 右侧图标 */
+  .sport .content .list{
+  height: 450px;
+  width: 960px;
+  }
+  /* 右侧上部分 */
+  .sport .content .list .list-top{
+	height: 280px;
+	width: 960px;
+  }
+  .sport .content  .list .list-top > ul > li{
+	float:left;
+	height: 280px;
+	width: 158px;
+	background-color: #fff;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+  }
+  /* 一个特别的li，轮播容器 */
+  .sport .content .list .list-top ul li:first-child{
+	height:280px;
+	width:478px;
+  }
+  .sport .content .list .list-top ul li:first-child .pptbox{
+	width:478px;
+	height:280px;
+  }
+  /* 右侧下部分 */
+  .sport .content .list .list-button{
+	height:170px;
+	width: 960px;
+  }
+  .sport .content .list .list-button > ul > li{
+	float:left;
+	height: 168px;
+	width: 158px;
+	background-color: #fff;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+  }
+  .sport .content .list .list-button ul li:first-child{
+	height: 168px;
+	width: 478px;
+  }
+  /* 底部 */
+  .sport .button{
+  height: 63px;
+  width: 1200px;
+  background-color: #fff;
+  }
+  .sport .button > ul > li > img{
+	float: left;
+	height: 63px;
+	width: 133px;
+  }
 
 /* 8.=============童装============= */
 .children-clothes{
-	height:500px;
-	background-color: #ccc;
+	margin-top: 30px;
+	height:570px;
 }
-
-
+/* 顶部 */
+.children-clothes .top{
+	width: 1200px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff;
+	border-bottom: 6px solid #ff6700;
+  }
+  /* 标题 */
+  .children-clothes .top .title{
+	text-indent: 24px;
+	font-size: 24px;
+	font-weight: 300px;
+	color:#ff6700;
+	background-color: #fff;
+	border-bottom: 6px solid #ff6700;
+  }
+  /* 右侧标题导航 */
+  .children-clothes .top ul li{
+	width: 100px;
+	text-align: center;
+	float: left;
+	font-size: 18px;
+  }
+  /* 右侧激活类 */
+  .children-clothes .top ul li.active{
+	background-color: #ff6700;
+	color: #fff;
+  }
+  /* 下半部分内容 */
+  .children-clothes .content{
+	height: 450px;
+	width: 1200px;
+  }
+  /* 左侧广告 */
+  .children-clothes .content .ads{
+	height: 450px;
+	width: 240px;
+	background-color: #f9f9f9;
+  }
+  .children-clothes .content .ads .top-img{
+	width: 240px;
+	height: 290px;
+  }
+  .children-clothes .content .ads .bottom-text{
+	height: 160px;
+	width: 240px;
+  }
+  .children-clothes .content .ads .bottom-text ul{
+	width: 240px;
+	height: 160px;
+	margin-left: 1px;
+  }
+  .children-clothes .content .ads .bottom-text ul li{
+	float: left;
+	width: 78px;
+	line-height: 40px;
+	height: 40px;
+	text-indent: 5px;
+  }
+  /* 右侧图标 */
+  .children-clothes .content .list{
+  height: 450px;
+  width: 960px;
+  }
+  /* 右侧上部分 */
+  .children-clothes .content .list .list-top{
+	height: 280px;
+	width: 960px;
+  }
+  .children-clothes .content  .list .list-top > ul > li{
+	float:left;
+	height: 280px;
+	width: 158px;
+	background-color: #fff;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+  }
+  /* 一个特别的li，轮播容器 */
+  .children-clothes .content .list .list-top ul li:first-child{
+	height:280px;
+	width:478px;
+  }
+  .children-clothes .content .list .list-top ul li:first-child .pptbox{
+	width:478px;
+	height:280px;
+  }
+  /* 右侧下部分 */
+  .children-clothes .content .list .list-button{
+	height:170px;
+	width: 960px;
+  }
+  .children-clothes .content .list .list-button > ul > li{
+	float:left;
+	height: 168px;
+	width: 158px;
+	background-color: #fff;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+  }
+  .children-clothes .content .list .list-button ul li:first-child{
+	height: 168px;
+	width: 478px;
+  }
+  /* 底部 */
+  .children-clothes .button{
+  height: 63px;
+  width: 1200px;
+  background-color: #fff;
+  }
+  .children-clothes .button > ul > li > img{
+	float: left;
+	height: 63px;
+	width: 133px;
+  }
 /* 9.=============家居日用============= */
 .daily{
-	height:500px;
-	background-color: #333;
-	
+	height:545px;
 }
-
-
+/* 标题 */
+.daily .title {
+	width: 1200px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+	text-indent: 24px;
+	font-size: 24px;
+	font-weight: 300px;
+	color: #ff6700;
+	background-color: #fff;
+	border-bottom: 6px solid #ff6700;
+}
+/* 推荐内容 */
+.daily .recommend-content{
+	width: 1190px;
+	height: 498px;
+	margin: 0 auto;
+}
+/* 列表容器 */
+.daily .recommend-content ul{
+	width: 1190px;
+	height: 498px;
+	margin: 0 auto;
+	background-color: #ff6700;
+}
+/* 推荐列表li */
+.daily .recommend-content ul li{
+	width: 196px;
+	height: 247px;
+	background-color: #fff;
+	float: left;
+	margin-left: 2px;
+	margin-bottom: 2px;
+}
+/* 整体居中 */
+.daily .recommend-content ul li {
+	text-align: center;
+}
+/* p标签样式 */
+.daily .recommend-content ul li p{
+	text-align: left;
+	text-indent: 10px;
+	font-size: 14px;
+}
+/* 限时 */
+.daily .recommend-content ul li p.limit-time{
+	text-align: left;
+	text-indent: 0;
+}
+/* 全国联保 */
+.daily .recommend-content ul li p.text{
+	color: red;
+}
+/* 价格 */
+.daily .recommend-content ul li p.price{
+	color: red;
+	font-size: 20px;
+	margin-top: 5px;
+	font-weight: 100;
+}
 /* 10.=============推广商品============= */
 .promotion{
 	height:560px;
@@ -766,7 +1049,7 @@ background-color: #fff;
 
 
 /* ====================返回顶部============================ */
-.backToToTop{
+.backToTop{
 	width: 30px;
 	height: 50px;
 	background-color: red;
@@ -778,7 +1061,94 @@ background-color: #fff;
 	/* 默认隐藏 */
 	display: none;
 }
-.backToToTop img{
+.backToTop img{
 	width: 100%;
 	height: 100%;
+}
+/* ====================二维码======================== */
+.qr-code{
+	width: 40px;
+	height: 180px;
+	/* 定位 */
+	position: fixed;
+	top: 185px;
+	right: 0;
+}
+.qr-code p {
+	width: 40px;
+	height: 40px;
+}
+.qr-code p img{
+	width: 100%;
+	height: 100%;
+
+}
+.qr-code p:nth-child(2){
+	height: 100px;
+	background-color: deeppink;
+}
+.qr-code div{
+	/* 定位 */
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: -10;
+}
+/* ====================顶部搜索框交互======================== */
+.top-search-box{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: rgba(225,123,0,.8);
+
+	/*定位*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* 默认隐藏 */
+	display: none;
+}
+.top-search-box .search-box{
+	width: 400px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #ff6700;
+	margin: 10px auto;
+	background-image:url('../img/bgicon.png');
+	background-repeat: no-repeat;
+	background-position: 356px -2px;
+}
+.top-search-box .search-box input{
+	height: 26px;
+	width: 360px;
+	border: 2px solid #ff6700;
+	outline: none;
+	text-indent: 10px;
+}
+/* 楼层滚动样式 */
+.floor{
+	width: 40px;
+	height: 200px;
+	background-color: #f2f2f2;
+	position: fixed;
+	margin-left:50% ;
+	left: -640px;
+	top: 200px;
+}
+.floor li{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	/*设置过度效果*/
+	transition: all 0.3s;
+}
+.floor li:hover{
+	width: 80px;
+	color: #fff;
+	background-color: #93d56f;
+
+}
+.floor li img{
+	width: 40px;
+	height: 40px;
 }
