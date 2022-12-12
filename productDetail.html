@@ -9,7 +9,8 @@
 		<!-- 引入样式 -->
 		<link rel="stylesheet" href="./css/reset.css">
 		<link rel="stylesheet" href="./css/common.css">
-		<link rel="stylesheet" href="./css/shopcart.css">
+        <link rel="stylesheet" href="./css/magnifier.css">
+        <link rel="stylesheet" href="./css/productDetail.css">
 
 	</head>
 	<body>
@@ -60,6 +61,66 @@
 			</div>
 		</div>		
 
+        <!-- 放大镜 -->
+            <!-- 产品详情 -->
+    <div class="productDetail container clearfix">
+        <div class="left-box fl">
+            <!-- 放大器容器 -->
+            <div class="magnifier" id="magnifier1">
+                <div class="magnifier-container">
+                    <div class="images-cover"></div>
+                    <!--当前图片显示容器-->
+                    <div class="move-view"></div>
+                    <!--跟随鼠标移动的盒子-->
+                </div>
+                <div class="magnifier-assembly">
+                    <!-- 按钮 -->
+                    <div class="magnifier-btn">
+                        <span class="magnifier-btn-left">&lt;</span>
+                        <span class="magnifier-btn-right">&gt;</span>
+                    </div>
+                    <!--按钮组-->
+                    <div class="magnifier-line">
+                        <ul class="clearfix animation03">
+                            <li>
+                                <div class="small-img">
+                                    <img src="../trunk/img/10.jpg" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../trunk/img/8.jpg" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../trunk/img/7.jpg" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../trunk/img/6.jpg" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../trunk/img/5.jpg" />
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <!--缩略图-->
+                </div>
+                <div class="magnifier-view"></div>
+                <!--经过放大的图片显示容器-->
+
+            </div>
+        </div>
+            <div class="right-box fr">
+        </div>
+        
+    </div>
 
         <!-- 11.尾部 -->
 		<div class="footer">
@@ -160,13 +221,9 @@
            </div>
        </div>
 
-
-       <!-- ==============返回顶部 ==================-->
-       <div class="backToTop">
-           <img src="img/gototop_05.jpg">
-       </div>
            <!-- 引入jquery.js -->
        <script src="./js/jquery.js"></script>
-       <script src="./js/shopcart.js"></script>
+       <script src="./js/magnifier.js"></script>
+       <script src="./js/productDetail.js"></script>
    </body>
 </html>

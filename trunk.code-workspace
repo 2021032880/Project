@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../下载文件/大二.Web"
+		}
+	],
+	"settings": {
+		"html.autoClosingTags": true
+	}
+}

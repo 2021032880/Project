@@ -1,0 +1,19 @@
+.productDetail{
+    height: 500px;
+    margin: 50px auto;
+
+}
+.productDetail .left-box{
+width: 340px;
+height: 470px;
+background-color:#fcfcfc;
+}
+.productDetail .right-box{
+    background-color: pink;
+    width: 800px;
+    height: 500px;
+}
+.magnifier-container{
+    height: 380px !important;
+}
+

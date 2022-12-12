@@ -117,7 +117,7 @@ $(function(){
         if($(input).prop('checked')){
             //自增
             count++;
-            //
+            //累加价格
             totalPrice += parseFloat($(this).closest('tr').find('.subprice').text())
         }
     })
