@@ -8,7 +8,7 @@
     // 定义三个变量
 $(function(){
     var $theadInput = $('table thead input[type=checkbox]');  //头部选择框
-    var $bodyInput = $('table tbody input[type=checkbox');   //中间选择框
+    var $bodyInput = $('table tbody input[type=checkbox]');   //中间选择框
     var $allPriceInput = $('.totalPrice input[type=checkbox]');  //结算选择框
 
     //

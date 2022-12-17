@@ -35,28 +35,31 @@ $(function() {
     /** 换一批 */
     //定索引
     //上下滑动版本
-    /*var index = 0;
-    $('.change').click(function(){
-        //自增
-        index++;
-        //边界判断
-        index = index > 2 ? 0 : index;
-        //inner-box
-        $('.inner-box').animate({
-            top: -index * 500
-        })
-    }) 
-    */
+    // var index = 0;
+    // $('.change').click(function(){
+    //     //自增
+    //     index++;
+    //     //边界判断
+    //     index = index > 2 ? 0 : index;
+    //     //让里面的inner-box运动
+    //     $('.inner-box').animate({
+    //         top: -index * 500
+    //     })
+    // }) 
     
-    //左右滑动版本
+
+
+    // 左右滑动版本
     var index = 0;
     $('.change').click(function(){
         //自增
         index++;
+        console.log('1',index)
         //边界判断
-        //inner-box
+        //让里面的inner-box运动
         $('.inner-box').stop(true).animate({left: -index * 1200},function (){
-            if (index > 2) {
+            console.log('2',index)
+            if (index === 3) {
                 index =0;
                 $('.inner-box').css('left',0);
             }

@@ -72,20 +72,21 @@
     width: 1200px;
     height: 500px;
 }
+
 /* 滑动版本*/
 .out-box {
     overflow: hidden;
 }
 .inner-box {
     /*上下滑动*/
-    /*
+    
     height: 1500px;
-    */
+   
     /*左右滑动*/
     width: 4800px;
     /*上下滑动*/
-    /*top: 0;
-    */
+    top: 0;
+   
     /*左右滑动*/
     left: 0;
     position: relative;
