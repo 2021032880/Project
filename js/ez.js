@@ -55,12 +55,14 @@ $(function() {
         //自增
         index++;
         console.log('1',index)
+
+
         //边界判断
         //让里面的inner-box运动
         $('.inner-box').stop(true).animate({left: -index * 1200},function (){
             console.log('2',index)
-            if (index === 3) {
-                index =0;
+            if (index > 2) {
+                index = 0;
                 $('.inner-box').css('left',0);
             }
         })
