@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1032407",
+      "name": "星星 (1)",
+      "font_class": "xingxing1",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "20158656",
+      "name": "星星3",
+      "font_class": "xingxing3",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "20158657",
+      "name": "星星2",
+      "font_class": "xingxing2",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    }
+  ]
+}

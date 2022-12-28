@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0em;
+            padding: 0em;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            float: left;
+            width: 200px;
+            line-height: 200px;
+            text-align: center;
+            height: 200px;
+            background-color: gold;
+        }
+
+        /* 清除浮动 */
+        .clearfix::after {
+            content: '';
+            display: inline-block;
+            height: 0;
+            clear: both;
+        }
+
+        .out-box {
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            margin: 100px auto;
+        }
+
+        ul {
+            width: 1000px;
+            position: relative;
+            left: 0em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="out-box">
+        <ul class="clearfix">
+            <li>
+                <img src="img/mao/1.png">
+            </li>
+            <li>
+                <img src="img/mao/2.png">
+            </li>
+            <li>
+                <img src="img/mao/3.png">
+            </li>
+            <li>
+                <img src="img/mao/4.png">
+            </li>
+            <li>
+                <img src="img/mao/5.png">
+            </li>
+            <li>
+                <img src="img/mao/6.png">
+            </li>
+            <li>
+                <img src="img/mao/7.png">
+            </li>
+            <li>
+                <img src="img/mao/8.png">
+            </li>
+            <li>
+                <img src="img/mao/9.png">
+            </li>
+            <li>
+                <img src="img/mao/10.png">
+            </li>
+        </ul>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function () {
+            // 第一个索引
+            var index = 0;
+            setInterval(function () {
+                index++;
+                $('ul').animate({
+                    left: -index * 200
+                },300,function(){
+                    if(index>8){
+                        index=0;
+                        $('ul').css('left',0)
+                    }
+                })
+            },1000)
+        })
+
+    </script>
+</body>
+</html>
